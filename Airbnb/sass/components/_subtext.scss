@@ -1,0 +1,13 @@
+.subtext {
+  font-size: rem(16px);
+  color: $main-font-color;
+  line-height: rem(24px);
+  &:last-of-type::after {
+    @include arrow;
+    top: 52px;
+    left: 510px;
+  }
+  &_indent {
+    margin-top: 8px;
+  }
+}

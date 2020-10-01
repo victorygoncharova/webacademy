@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__navigation container">
+        <nav class="header__nav" id="nav">
+          <button class="header__toggle" id="toggle"></button>
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#" class="header__link"><span>Shop</span></a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link"><span>Home</span></a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link"><span>About</span></a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link"><span>Contact us</span></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="search">
+        <div class="container container_search">
+          <div class="search__block">
+            <h2 class="search__title">
+              Бронируйте <br />
+              уникальное жилье
+            </h2>
+            <form action="" method="POST" class="search__form">
+              <label for="input-1" class="search__label">Где</label>
+              <input type="text" class="search__field" id="input-1" name="where" />
+              <div class="search__row">
+                <label for="input-2" class="search__label">Прибытие</label>
+                <input type="date" class="search__field" id="input-2" name="arrival" />
+                <label for="input-3" class="search__label">Выезд</label>
+                <input type="date" class="search__field" id="input-3" name="departure" />
+              </div>
+              <label for="input-4" class="search__label">Взрослые <span>Дети</span></label
+              ><input type="text" class="search__field search__field_last" id="input-4" name="visitors" />
+              <div class="search__button"><button class="btn btn_pink">Начать поиск</button></div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="plus container">
+        <h2 class="headline">Жилье Airbnb Plus</h2>
+        <div class="subtext subtext_indent">Подборка жилья, проверенного на качество и дизайн.</div>
+        <div class="plus__block">
+          <img src="./img/img-logo.png" class="plus__img" alt="Logo" />
+          <div>
+            <a href="#" class="btn btn_white"><span>Найти жилье</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="travel container">
+        <div class="headline">Представляем Приключения Airbnb</div>
+        <div class="subtext subtext_indent">
+          Многодневные поездки под руководством местных экспертов. <br />
+          Развлечения, питание и проживание включены.
+        </div>
+        <ul class="cards">
+          <li class="card-item">
+            <a href="#" class="card-item__img"></a>
+            <div class="card-item__content">
+              <div class="card-item__row">
+                <span class="card-item__title">Сидней</span>
+                <span class="card-item__rating">4.5</span>
+              </div>
+              <div class="card-item__subtext">Убежище в джунглях на прекрасном Бали</div>
+              <div class="card-item__subtext">От 820$ на человека</div>
+              <a href="#" class="btn btn_blue">Бронировать</a>
+            </div>
+          </li>
+          <li class="card-item">
+            <a href="#" class="card-item__img"></a>
+            <div class="card-item__content">
+              <div class="card-item__row">
+                <span class="card-item__title">Индонезия</span>
+                <span class="card-item__rating">4.5</span>
+              </div>
+              <div class="card-item__subtext">Убежище в джунглях на прекрасном Бали</div>
+              <div class="card-item__subtext">От 820$ на человека</div>
+              <a href="#" class="btn btn_blue">Бронировать</a>
+            </div>
+          </li>
+          <li class="card-item">
+            <a href="#" class="card-item__img"></a>
+            <div class="card-item__content">
+              <div class="card-item__row">
+                <span class="card-item__title">Филипины</span>
+                <span class="card-item__rating">4.5</span>
+              </div>
+              <div class="card-item__subtext">Убежище в джунглях на прекрасном Бали</div>
+              <div class="card-item__subtext">От 820$ на человека</div>
+              <a href="#" class="btn btn_blue">Бронировать</a>
+            </div>
+          </li>
+          <li class="card-item">
+            <a href="#" class="card-item__img"></a>
+            <div class="card-item__content">
+              <div class="card-item__row">
+                <span class="card-item__title">Индия</span>
+                <span class="card-item__rating">3.7</span>
+              </div>
+              <div class="card-item__subtext">Убежище в джунглях на прекрасном Бали</div>
+              <div class="card-item__subtext">От 820$ на человека</div>
+              <a href="#" class="btn btn_blue">Бронировать</a>
+            </div>
+          </li>
+          <li class="card-item">
+            <a href="#" class="card-item__img"></a>
+            <div class="card-item__content">
+              <div class="card-item__row">
+                <span class="card-item__title">Вьетнам</span>
+                <span class="card-item__rating">4.5</span>
+              </div>
+              <div class="card-item__subtext">Убежище в джунглях на прекрасном Бали</div>
+              <div class="card-item__subtext">От 820$ на человека</div>
+              <a href="#" class="btn btn_blue">Бронировать</a>
+            </div>
+          </li>
+          <li class="card-item">
+            <a href="#" class="card-item__img card-item__img_1"></a>
+            <div class="card-item__content">
+              <div class="card-item__row">
+                <span class="card-item__title">Петра</span>
+                <span class="card-item__rating">4.5</span>
+              </div>
+              <div class="card-item__subtext">Убежище в джунглях на прекрасном Бали</div>
+              <div class="card-item__subtext">От 820$ на человека</div>
+              <a href="#" class="btn btn_blue">Бронировать</a>
+            </div>
+          </li>
+          <li class="card-item">
+            <a href="#" class="card-item__img"></a>
+            <div class="card-item__content">
+              <div class="card-item__row">
+                <span class="card-item__title">Индонезия</span>
+                <span class="card-item__rating">4.5</span>
+              </div>
+              <div class="card-item__subtext">Убежище в джунглях на прекрасном Бали</div>
+              <div class="card-item__subtext">От 820$ на человека</div>
+              <a href="#" class="btn btn_blue">Бронировать</a>
+            </div>
+          </li>
+          <li class="card-item">
+            <a href="#" class="card-item__img card-item__img_2"></a>
+            <div class="card-item__content">
+              <div class="card-item__row">
+                <span class="card-item__title">Индонезия</span>
+                <span class="card-item__rating">4.5</span>
+              </div>
+              <div class="card-item__subtext">Убежище в джунглях на прекрасном Бали</div>
+              <div class="card-item__subtext">От 820$ на человека</div>
+              <a href="#" class="btn btn_blue">Бронировать</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="room container">
+        <h2 class="headline headline_arrow">Жилье по всему миру</h2>
+        <div class="offers">
+          <div class="offer-item">
+            <a href="#" class="offer-item__img offer-item__img_1"></a>
+            <div class="offer-item__row">
+              <div class="offer-item__badge"><span>СУПЕР-ХОЗЯИН</span></div>
+              <div class="offer-item__country">Австрия</div>
+              <div class="offer-item__rating">4.90</div>
+            </div>
+            <div class="offer-item__subtext">Sunny apartment near metro station.</div>
+          </div>
+          <div class="offer-item">
+            <a href="#" class="offer-item__img offer-item__img_2"></a>
+            <div class="offer-item__row">
+              <div class="offer-item__badge"><span>СУПЕР-ХОЗЯИН</span></div>
+              <div class="offer-item__country">США</div>
+              <div class="offer-item__rating">4.90</div>
+            </div>
+            <div class="offer-item__subtext">Grand and Cozy 1920's SF Studio</div>
+          </div>
+          <div class="offer-item">
+            <a href="#" class="offer-item__img offer-item__img_3"></a>
+            <div class="offer-item__row">
+              <div class="offer-item__country offer-item__country_self">Таиланд</div>
+            </div>
+            <div class="offer-item__subtext">White Breeze Pool 1BD Apartment</div>
+          </div>
+          <div class="offer-item">
+            <a href="#" class="offer-item__img offer-item__img_4"></a>
+            <div class="offer-item__row">
+              <div class="offer-item__badge"><span>СУПЕР-ХОЗЯИН</span></div>
+              <div class="offer-item__country">Великобритания</div>
+            </div>
+            <div class="offer-item__subtext">Old Smock Windmill in rural Kent</div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer container">
+      <div class="footer-top container_footer">
+        <div class="footer-top__column">
+          <h3 class="footer-top__headline">Airbnb</h3>
+          <ul class="footer-top__items">
+            <li class="footer-top__item"><a href="#" class="footer-top__link">Карьера</a></li>
+            <li class="footer-top__item"><a href="#" class="footer-top__link">Новости</a></li>
+            <li class="footer-top__item"><a href="#" class="footer-top__link">Правила</a></li>
+            <li class="footer-top__item"><a href="#" class="footer-top__link">Принадлежность, этнокультурные и другие различия</a></li>
+            <li class="footer-top__item"><a href="#" class="footer-top__link">Доступность</a></li>
+          </ul>
+        </div>
+        <div class="footer-top__column">
+          <h3 class="footer-top__headline">Подробнее о нас</h3>
+          <ul class="footer-top__items">
+            <li class="footer-top__item"><a href="#" class="footer-top__link">Доверие и безопасность</a></li>
+            <li class="footer-top__item"><a href="#" class="footer-top__link">Бонус на путешествие</a></li>
+            <li class="footer-top__item"><a href="#" class="footer-top__link">Airbnb Citizen</a></li>
+            <li class="footer-top__item"><a href="#" class="footer-top__link">Деловые поездки</a></li>
+            <li class="footer-top__item"><a href="#" class="footer-top__link">Чем заняться</a></li>
+            <li class="footer-top__item"><a href="#" class="footer-top__link">Airbnbmag</a></li>
+          </ul>
+        </div>
+        <div class="footer-top__column">
+          <h3 class="footer-top__headline">Прием гостей</h3>
+          <ul class="footer-top__items">
+            <li class="footer-top__item"><a href="#" class="footer-top__link">Почему стоит принимать гостей</a></li>
+            <li class="footer-top__item"><a href="#" class="footer-top__link">Гостеприимство</a></li>
+            <li class="footer-top__item"><a href="#" class="footer-top__link">Как стать ответственным хозяином</a></li>
+            <li class="footer-top__item"><a href="#" class="footer-top__link">Организация Впечатлений</a></li>
+            <li class="footer-top__item"><a href="#" class="footer-top__link">Open Homes</a></li>
+          </ul>
+        </div>
+        <div class="footer-top__column">
+          <h3 class="footer-top__headline">Поддержка</h3>
+          <ul class="footer-top__items">
+            <li class="footer-top__item"><a href="#" class="footer-top__link">Поддержка</a></li>
+            <li class="footer-top__item footer-top__item_badge"><a href="#" class="footer-top__link">Поддержка соседей</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-under container_footer">
+        <a href="#" class="footer-under__link"><img src="./img/airbnb.png" alt="Logo" class="footer-under__img" /></a>
+        <div class="footer-under__copyright">© 2020 Airbnb, Inc. All rights reserved.</div>
+        <ul class="footer-under__navigation">
+          <li class="footer-under__item footer-under__item_marker">
+            <a href="#" class="footer-under__link footer-under__link"><span>Уcловия</span></a>
+          </li>
+          <li class="footer-under__item footer-under__item_marker">
+            <a href="#" class="footer-under__link footer-under__link"><span>Конфиденциальность</span></a>
+          </li>
+          <li class="footer-under__item">
+            <a href="#" class="footer-under__link"><span>Карта сайта</span></a>
+          </li>
+        </ul>
+        <div class="social">
+          <a href="#" class="social__item"><img src="./img/fb.png" alt="Facebook" class="social__icon" /></a>
+          <a href="#" class="social__item"><img src="./img/vk.png" alt="Vkontakte" class="social__icon" /></a>
+          <a href="#" class="social__item"><img src="./img/twitter.png" alt="Twitter" class="social__icon" /></a>
+          <a href="#" class="social__item"><img src="./img/insta.png" alt="Insta" class="social__icon" /></a>
+        </div>
+      </div>
+    </footer>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

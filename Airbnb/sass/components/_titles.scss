@@ -1,0 +1,14 @@
+.headline {
+  font-size: rem(22px);
+  color: $main-font-color;
+  font-weight: 400;
+  position: relative;
+  &_arrow {
+    &:after {
+      @include arrow;
+      top: 55%;
+      left: 238px;
+      transform: translateY(-50%);
+    }
+  }
+}

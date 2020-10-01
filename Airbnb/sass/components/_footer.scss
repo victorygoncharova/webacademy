@@ -1,0 +1,97 @@
+.footer {
+  margin-top: 50px;
+  border-top: 1px solid #ebebeb;
+  &-top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    &__column {
+      width: 218px;
+      padding-right: 10px;
+    }
+    &__headline {
+      color: $label-font-color;
+      font-size: rem(14px);
+      margin-bottom: 20px;
+      font-weight: 400;
+    }
+    &__item {
+      margin-bottom: 4px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &_badge::after {
+        content: "Новинка";
+        width: 61px;
+        height: 18px;
+        padding: 2px 5px;
+        background-color: #006a70;
+        border-radius: 4px;
+        font-size: rem(12px);
+        color: #fff;
+        margin-left: 15px;
+      }
+    }
+    &__link {
+      font-size: rem(14px);
+      line-height: rem(18px);
+      color: $footer-font-color;
+      text-decoration: none;
+      &:hover {
+        color: #006a70;
+        transition: 200ms all;
+      }
+    }
+  }
+  &-under {
+    display: flex;
+    align-items: center;
+    padding: 18px 0 50px 0;
+    border-top: 1px solid #ebebeb;
+    &__navigation {
+      display: flex;
+      align-items: center;
+    }
+    &__img {
+      width: 21px;
+      height: 21px;
+      margin-right: 8px;
+    }
+    &__copyright {
+      font-size: rem(14px);
+      color: $footer-font-color;
+      margin-right: 28px;
+    }
+    &__item {
+      margin: 0 12px 0;
+      display: flex;
+      align-items: center;
+      &:last-child {
+        margin-right: 0;
+      }
+      &_marker::after {
+        content: "";
+        width: 2px;
+        height: 2px;
+        border-radius: 50%;
+        background-color: $footer-font-color;
+        position: absolute;
+        top: 50%;
+        right: -13px;
+        transform: translateY(-50%);
+      }
+    }
+    &__link {
+      display: flex;
+      align-items: center;
+      font-size: rem(14px);
+      color: $footer-font-color;
+      text-decoration: none;
+      &:hover {
+        color: #006a70;
+        transition: 200ms all;
+      }
+    }
+  }
+}

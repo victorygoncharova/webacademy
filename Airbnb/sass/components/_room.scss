@@ -1,0 +1,74 @@
+.offers {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 28px -20px 0 0;
+}
+.offer-item {
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  &__img {
+    display: block;
+    height: 210px;
+    &_1 {
+      background: url("../img/img_item_4@2x.png") center center/cover no-repeat;
+    }
+    &_2 {
+      background: url("../img/img_item_5@2x.png") center center/cover no-repeat;
+    }
+    &_3 {
+      background: url("../img/img_item_6@2x.png") center center/cover no-repeat;
+    }
+    &_4 {
+      background: url("../img/img_item_7@2x.png") center center/cover no-repeat;
+    }
+  }
+  &__row {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+  }
+  &__country {
+    font-size: rem(14px);
+    color: #717171;
+    &_self {
+      line-height: rem(25px);
+    }
+  }
+  &__rating {
+    position: relative;
+    margin-left: auto;
+    font-size: rem(13px);
+    color: $main-font-color;
+    &::before {
+      content: "";
+      width: 15px;
+      height: 15px;
+      background: url("../img/rating.png") center center/cover no-repeat;
+      position: absolute;
+      top: 30%;
+      right: 30px;
+    }
+  }
+  &__subtext {
+    font-size: rem(16px);
+    color: $main-font-color;
+    margin-top: 10px;
+  }
+  &__badge {
+    width: 125px;
+    height: 25px;
+    border: 1px solid #222222;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+    span {
+      color: $main-font-color;
+      font-size: rem(12px);
+    }
+  }
+}

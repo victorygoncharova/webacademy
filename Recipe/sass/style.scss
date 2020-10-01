@@ -1,0 +1,119 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.wrapper {
+  max-width: 640px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.container {
+  padding: 20px;
+}
+
+.recipe {
+  &__img {
+    width: 100%;
+  }
+  &__header {
+    h1 {
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+    &__descr {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    h2 {
+      font-size: 24px;
+      font-weight: 700;
+    }
+    .recipe-list {
+      border: 1px solid #e7e7e7;
+      border-top: 3px solid #ed5e42;
+      padding: 10px;
+      &__item {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #e7e7e7;
+        padding: 5px 0 5px 0;
+      }
+      &__item:last-child {
+        border-bottom: none;
+      }
+      &__param {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        span {
+          display: block;
+          font-weight: 400;
+        }
+      }
+      &__value {
+        font-size: 14px;
+      }
+    }
+  }
+  &__main {
+    ul {
+      list-style-type: none;
+      padding: 0;
+      li {
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 15px 0 15px 0;
+        border-bottom: 1px solid #e7e7e7;
+      }
+      li:last-child {
+        border-bottom: none;
+      }
+    }
+    span {
+      font-size: 24px;
+      font-weight: 700;
+      display: block;
+    }
+  }
+  &__footer {
+    .author {
+      display: flex;
+      align-items: center;
+      &__img {
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+      }
+      &__info {
+        font-size: 14px;
+        span {
+          font-weight: 600;
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.advice {
+  display: flex;
+  background-color: #f6f6f6;
+  align-items: center;
+
+  &__img {
+    width: 35px;
+    height: 35px;
+    border-radius: 2px;
+    margin: 0 15px 0 25px;
+  }
+  &__descr {
+    line-height: 15px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}

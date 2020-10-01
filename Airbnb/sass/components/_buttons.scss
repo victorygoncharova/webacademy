@@ -1,0 +1,61 @@
+.btn {
+  display: block;
+  font-size: rem(16px); // Px to Rem
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0 0 10px #a09f9f;
+    transition: 200ms all;
+  }
+  &:active {
+    box-shadow: 0 0 15px #999999 inset;
+    transition: 200ms all;
+  }
+  &_pink {
+    width: 153px;
+    height: 48px;
+    margin-top: 20px;
+    border-radius: 4px;
+    position: absolute;
+    right: 0;
+    background: #ff5a5f;
+  }
+  &_white {
+    background: #fff;
+    border-radius: 4px;
+    width: 174px;
+    height: 46px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    span {
+      position: absolute;
+      top: 50%;
+      left: 45%;
+      transform: translateY(-50%) translateX(-50%);
+      font-size: rem(10px);
+      letter-spacing: 1px;
+      color: $label-font-color;
+      text-transform: uppercase;
+      &:after {
+        @include arrow;
+        top: 50%;
+        right: -20%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+  &_blue {
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: $blue-color;
+    text-align: center;
+    &:hover {
+      background-color: #14d081;
+      transition: 300ms all;
+    }
+  }
+}

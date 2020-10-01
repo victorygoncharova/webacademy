@@ -1,0 +1,7 @@
+@mixin arrow {
+  content: "";
+  width: 12px;
+  height: 10px;
+  background: url("../img/arrow@2x.png") center center/cover no-repeat;
+  position: absolute;
+}

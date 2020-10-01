@@ -1,0 +1,17 @@
+.plus {
+  padding-top: 65px;
+  &__block {
+    margin: 24px 0 48px;
+    width: 100%;
+    height: 300px;
+    background: url("../img/section-img@2x.png") center center/cover no-repeat;
+    position: relative;
+  }
+  &__img {
+    width: 220px;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
